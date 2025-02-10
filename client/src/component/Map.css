@@ -1,0 +1,67 @@
+.map_container {
+	margin: 20px;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #454545;
+}
+
+.custom_icon {
+	border-radius: 5px;
+	text-align: center;
+	line-height: 21px;
+	font-size: 10px;
+	color: #ffffff;
+	font-weight: bold;
+	white-space: nowrap;
+	border: 1px solid #fff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.custom_popup .leaflet-popup-content {
+	width: 41px;
+	margin: 5px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.leaflet-popup-close-button,
+.leaflet-popup-tip-container,
+.leaflet-popup-tip {
+	display: none;
+}
+
+.custom_icon.route_1 {
+	background: linear-gradient(to bottom, #ff7f7f, #e86666);
+}
+
+.custom_icon.route_1-1 {
+	background: linear-gradient(to bottom, #ffb75f, #ffa43c);
+}
+
+.custom_icon.route_3-1 {
+	background: linear-gradient(to bottom, #44c9a2, #11c5aa);
+}
+
+.custom_icon.route_5-1 {
+	background: linear-gradient(to bottom, #4bded3, #30d4c6);
+}
+
+.custom_icon.route_8 {
+	background: linear-gradient(to bottom, #338fff, #0062ff);
+}
+
+.custom_icon.route_14-1 {
+	background: linear-gradient(to bottom, #ff89e1, #ff73d3);
+}
+
+.custom_icon.route_21 {
+	background: linear-gradient(to bottom, #5f7aba, #5d6298);
+}
+
+.custom_icon.route_21-1 {
+	background: linear-gradient(to bottom, #33cc66, #00bb4e);
+}
+
+.custom_icon.route_30 {
+	background: linear-gradient(to bottom, #c5d33a, #bcc905);
+}

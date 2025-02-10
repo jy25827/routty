@@ -1,0 +1,15 @@
+.content_header {
+	color: #ffffff;
+	display: flex;
+	gap: 10px;
+	margin: 20px;
+	padding: 10px 20px;
+	border-radius: 10px;
+	background-color: #454545;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.content_header h2 {
+	font-size: 24px;
+}

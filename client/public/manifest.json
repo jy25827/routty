@@ -1,0 +1,8 @@
+{
+	"short_name": "Routty",
+	"name": "Routty | 버스 실시간 위치 지도",
+	"start_url": ".",
+	"display": "standalone",
+	"theme_color": "#000000",
+	"background_color": "#ffffff"
+}

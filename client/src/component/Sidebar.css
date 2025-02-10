@@ -1,0 +1,32 @@
+.sidebar {
+	height: 100%;
+	display: flex;
+	align-items: stretch;
+}
+
+.sidebar_content {
+	width: 340px;
+	transition: width 0.3s ease;
+	background-color: #2a2a2a;
+	overflow: hidden;
+}
+
+.sidebar_content.closed {
+	width: 0;
+}
+
+.sidebar_toggle {
+	height: 100%;
+	background: none;
+	border: none;
+	color: #d1d1d1;
+	font-size: 24px;
+	cursor: pointer;
+	align-self: center;
+	font-family: 'Arial Narrow', sans-serif;
+}
+
+.sidebar_toggle:hover {
+	background-color: #3a3a3a;
+	color: #ffffff;
+}
