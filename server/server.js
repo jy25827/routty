@@ -20,7 +20,7 @@ const app = express();
 if (process.env.NODE_ENV === 'production') {
 	app.use(
 		cors({
-			origin: 'https://your-service-domain.com', // 실제 배포 도메인으로 변경
+			origin: 'https://routty.onrender.com', // 실제 배포 도메인으로 변경
 		})
 	);
 } else {
@@ -41,7 +41,7 @@ const server = http.createServer(app);
 // Socket.IO CORS 옵션 적용
 const io = new Server(server, {
 	cors: {
-		origin: process.env.NODE_ENV === 'production' ? 'https://your-service-domain.com' : '*',
+		origin: process.env.NODE_ENV === 'production' ? 'https://routty.onrender.com' : '*',
 		methods: ['GET', 'POST'],
 	},
 });
