@@ -27,7 +27,7 @@ function SocketButton({ cityCode, routeNo }) {
 	useEffect(() => {
 		if (active) {
 			// active 상태일 때 소켓 연결 생성
-			socketRef.current = io('http://localhost:5000', {
+			socketRef.current = io('https://routty-server.onrender.com', {
 				auth: { cityCode, routeNo },
 			});
 
